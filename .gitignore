@@ -205,3 +205,61 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+*.egg
+MANIFEST
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# PyCharm project files
+.idea/
+
+# Jupyter notebooks (if applicable)
+.ipynb_checkpoints
+
+# Test cache and coverage reports
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# VS Code settings (just in case)
+.vscode/
+
+# System-specific files
+Thumbs.db
+.DS_Store
+
+.mistral-metalurgia-ft
+mistral-metalurgia-ft/
+
+merged_model
+mistral-metalurgia-ft
+mistral-metalurgia-ft_2.0
+mistral*
