@@ -14,6 +14,7 @@ conn = pyodbc.connect(
 
 ## sprawdzamy na serwerze czy sam udostępnia port:
 ## netstat -an | findstr :1433
+##
 
 
 cursor = conn.cursor()
